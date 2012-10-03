@@ -5,6 +5,8 @@ gem 'rails', '3.0.1'
 group :development, :test do
   gem 'sqlite3'
   gem 'rspec-rails', '2.0.1'
+  #leaving out annotate gem, it could not be found in sources
+  #gem 'annotate-models'
 end
 
 group :production, :staging do
